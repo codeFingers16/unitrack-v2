@@ -6,4 +6,6 @@ public class Course
     public string Code { get; set; } = string.Empty;   // e.g. COS1511
     public string Name { get; set; } = string.Empty;
     public List<Assignment> Assignments { get; set; } = [];
+    public string UserId { get; set; } = string.Empty;
+    public AppUser User { get; set; } = null!;
 }
